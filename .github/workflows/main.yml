@@ -33,7 +33,8 @@ jobs:
       - name: Construção da imagem docker
         uses: docker/build-push-action@v4.1.1
         with:
-          context: src/Dockerfile
+          context: ./src
+          file: ./src/Dockerfile
           push: true
           tags: |
             vcosmusjoao/aula-conversao-temperatura:v1
