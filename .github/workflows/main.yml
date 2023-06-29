@@ -43,8 +43,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            vcosmusjoao/aula-conversao-temperatura:v1
-            vcosmusjoao/aula-conversao-temperatura:latest
+            vcosmus/aula-conversao-temperatura:v1
+            vcosmus/aula-conversao-temperatura:latest
             
             
             
